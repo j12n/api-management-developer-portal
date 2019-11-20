@@ -806,7 +806,7 @@
                                         }
                                     }
                                 },
-                                "navItem": {
+                                "navLink": {
                                     "active": {
                                         "allowedStates": [
                                             "hover",
@@ -815,7 +815,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": "components/menu/default/components/navItem/active",
+                                        "id": "components/menu/default/components/navLink/active",
                                         "typography": {
                                             "fontWeight": "bold"
                                         }
@@ -828,7 +828,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": "components/menu/default/components/navItem/default",
+                                        "id": "components/menu/default/components/navLink/default",
                                         "margin": {
                                             "left": 20,
                                             "right": 25
@@ -856,13 +856,13 @@
                                         },
                                         "category": "appearance",
                                         "displayName": "Menu dropdown",
-                                        "id": " components/menu/yhdk9/components/dropdown/default",
+                                        "id": "components/menu/yhdk9/components/dropdown/default",
                                         "shadow": {
                                             "shadowId": "shadows/shadow2"
                                         }
                                     }
                                 },
-                                "navItem": {
+                                "navLink": {
                                     "active": {
                                         "allowedStates": [
                                             "hover",
@@ -871,7 +871,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": " components/menu/yhdk9/components/navItem/active",
+                                        "id": "components/menu/yhdk9/components/navLink/active",
                                         "typography": {
                                             "fontWeight": "bold"
                                         }
@@ -884,7 +884,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": " components/menu/yhdk9/components/navItem/default",
+                                        "id": "components/menu/yhdk9/components/navLink/default",
                                         "padding": {
                                             "top": 8,
                                             "left": 20,
@@ -922,7 +922,7 @@
                                 }
                             },
                             "displayName": "Home page menu",
-                            "id": " components/menu/yhdk9",
+                            "id": "components/menu/yhdk9",
                             "margin": {
                                 "top": 8,
                                 "bottom": 8
@@ -944,7 +944,7 @@
                                         }
                                     }
                                 },
-                                "navItem": {
+                                "navLink": {
                                     "active": {
                                         "allowedStates": [
                                             "hover",
@@ -953,7 +953,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": "components/menu/wlu0u/components/navItem/active",
+                                        "id": "components/menu/wlu0u/components/navLink/active",
                                         "typography": {
                                             "fontWeight": "bold"
                                         }
@@ -966,7 +966,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": "components/menu/wlu0u/components/navItem/default",
+                                        "id": "components/menu/wlu0u/components/navLink/default",
                                         "padding": {
                                             "top": 8,
                                             "left": 20,
@@ -1029,7 +1029,7 @@
                                         }
                                     }
                                 },
-                                "navItem": {
+                                "navLink": {
                                     "active": {
                                         "allowedStates": [
                                             "hover",
@@ -1038,7 +1038,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": "components/menu/s3zu7/components/navItem/active",
+                                        "id": "components/menu/s3zu7/components/navLink/active",
                                         "typography": {
                                             "fontWeight": "bold"
                                         }
@@ -1051,7 +1051,7 @@
                                             "disabled"
                                         ],
                                         "displayName": "Navigation link",
-                                        "id": "components/menu/s3zu7/components/navItem/default",
+                                        "id": "components/menu/s3zu7/components/navLink/default",
                                         "margin": {
                                             "right": 30,
                                             "top": 9,
@@ -1736,72 +1736,6 @@
                             }
                         },
                         "id": "utils/text"
-                    }
-                },
-                " components": {
-                    "menu": {
-                        "yhdk9": {
-                            "components": {
-                                "navItem": {
-                                    "default": {
-                                        "allowedStates": [
-                                            "hover",
-                                            "focus",
-                                            "active",
-                                            "disabled"
-                                        ],
-                                        "displayName": "Navigation link",
-                                        "id": " components/menu/yhdk9/components/navItem/default",
-                                        "padding": {
-                                            "top": 8,
-                                            "left": 20,
-                                            "right": 20,
-                                            "bottom": 8
-                                        },
-                                        "typography": {
-                                            "colorId": "colors/primaryText"
-                                        },
-                                        "states": {
-                                            "hover": {
-                                                "background": {
-                                                    "colorId": "colors/s7KlY"
-                                                },
-                                                "typography": {
-                                                    "colorId": "colors/primaryText"
-                                                },
-                                                "transition": {
-                                                    "timingFunction": "ease-in-out",
-                                                    "duration": "0.3",
-                                                    "delay": "0"
-                                                }
-                                            },
-                                            "active": {
-                                                "background": {
-                                                    "colorId": "colors/O6nZg"
-                                                }
-                                            }
-                                        },
-                                        "margin": {
-                                            "left": 1,
-                                            "right": 1
-                                        }
-                                    },
-                                    "active": {
-                                        "allowedStates": [
-                                            "hover",
-                                            "focus",
-                                            "active",
-                                            "disabled"
-                                        ],
-                                        "displayName": "Navigation link",
-                                        "id": " components/menu/yhdk9/components/navItem/active",
-                                        "typography": {
-                                            "fontWeight": "bold"
-                                        }
-                                    }
-                                }
-                            }
-                        }
                     }
                 }
             }
